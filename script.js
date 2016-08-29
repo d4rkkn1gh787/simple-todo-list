@@ -50,10 +50,7 @@ $(document).ready(function() {
         });
 
         $edit.click(function() {
-            var $editText = $('<input>');
-            $($editText).attr('type', 'text');
-            $($editText).attr('id', 'editText');
-            $($editText).attr('value', $text);
+            var $editText = $('<input type="text" id = "editText" ><button id = "update" type = "submit"> Update </button>');
 
             $addedItem.html($editText);
             var $update = $('#update');

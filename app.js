@@ -55,7 +55,7 @@ function listItem() {
     })
 
     edit.addEventListener('click', function() {
-        var editText = "<input type='text' id='editText' value=" + text + "><button id='update' type='submit'>Update</button>";
+            var editText = "<input type='text' id='editText' value=" + text + "><button id='update' type='submit'>Update</button>");
 
         addedItem.innerHTML = editText;
         var update = document.getElementById("update")
