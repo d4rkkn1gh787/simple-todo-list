@@ -37,6 +37,7 @@ function listItem() {
     var edit = document.createElement('button')
 
     addedItem.innerHTML = text;
+
     removeButton.setAttribute('type', 'button');
     removeButton.className = "rButton";
     removeButton.innerHTML = "X";
